@@ -63,12 +63,12 @@ df.to_csv('newcsv.csv')
 
 
 # Graficando
-plt.title('Transmitancia')
+plt.title('Transmitancia Normalizada 100%')
 plt.grid(True)
 #plt.ylabel('LDR')
 plt.plot(transmitancia, 'ro-', label='Degrees F')       #plot the temperature
 plt.plot(transmitancia, label='Degrees F')       #plot the temperature
-plt.legend(loc='upper left')                    #plot the legend
+plt.legend(loc='upper right')                    #plot the legend
 plt.show()
 
 
